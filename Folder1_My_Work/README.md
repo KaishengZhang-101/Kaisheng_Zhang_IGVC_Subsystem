@@ -18,9 +18,9 @@ Camera Perception, Road Following, and Nav2-Based System Integration for an IGVC
 
 | File or folder | Description | Authorship |
 |---|---|---|
-| `lane_pixel_to_xyz/` | Lane projection, target generation, diagnostics, and visualization | Primary subsystem work |
+| `lane_pixel_to_xyz.zip` | ROS 2 package archive for lane projection, target generation, diagnostics, and visualization | Primary subsystem work |
 | `scan_front_filter.py` | Forward-sector LiDAR filtering for Nav2/local costmap use | Primary / modified integration |
 | `indoor_waypoint_nav.py` | Road-following and waypoint-capable behavior | Primary / integration |
 | `fix_kinect_rgb_frame.py` | Utility for RGB frame consistency | Custom utility |
 | `lane_stack_nav2.launch.py` | Launch file for lane stack and Nav2-connected operation | Primary / integration |
-| `nav2_params.yaml` | Nav2 local costmap and controller parameters used during integration | Modified / integrated |
+| `nav2_integration_params.yaml` | Nav2 local costmap and controller parameters used during integration | Modified / integrated |
