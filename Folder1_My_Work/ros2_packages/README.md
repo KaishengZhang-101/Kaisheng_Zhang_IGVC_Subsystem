@@ -17,4 +17,6 @@ This folder contains ROS 2 package-level code associated with my individual subs
 The primary package can be placed into a ROS 2 workspace such as:
 
 ```bash
-~/milk_dragon_ws/src/
+cd ~/milk_dragon_ws
+colcon build --packages-select lane_pixel_to_xyz
+source install/setup.bash
