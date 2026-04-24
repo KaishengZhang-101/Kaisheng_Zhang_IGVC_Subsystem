@@ -1,0 +1,17 @@
+# Camera projection parameters used for lane-to-ground conversion.
+# These values document the configuration used during subsystem integration.
+
+camera_x: 0.199
+camera_z: 0.726
+pitch_deg: 12.0
+
+# Lane target generation parameters
+publish_hz: 10.0
+lookahead_x: 1.2
+min_points_per_side: 2
+
+# Notes:
+# - camera_x and camera_z represent the approximate camera mounting position.
+# - pitch_deg is tunable during field calibration.
+# - lookahead_x controls the forward target distance used for lane-center generation.
+# - min_points_per_side prevents unstable center targets from sparse lane detections.
