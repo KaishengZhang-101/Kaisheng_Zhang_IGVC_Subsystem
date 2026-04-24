@@ -1,0 +1,27 @@
+# Simplified Nav2 integration parameters documented for the IGVC subsystem.
+# The full robot may use a larger nav2_params.yaml file.
+
+controller_frequency: 20.0
+
+local_costmap:
+  update_frequency: 10.0
+  publish_frequency: 5.0
+  global_frame: odom
+  robot_base_frame: base_link
+  rolling_window: true
+
+obstacle_sources:
+  scan_front:
+    topic: /scan_front
+    purpose: forward_sector_lidar_filtering
+
+  camera_obstacles:
+    topic: /camera/obstacle
+    purpose: camera_or_depth_based_obstacle_support
+
+subsystem_notes:
+  road_following: uses lane target and Nav2-based stack
+  lane_target_topic: /lane_target_point
+  lane_valid_topic: /lane_valid
+  costmap_topic: /local_costmap/costmap
+  cmd_vel_topic: /cmd_vel
