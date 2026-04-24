@@ -14,6 +14,8 @@ This folder contains ROS 2 package-level code associated with my individual subs
 
 ## Expected Workspace Use
 
+This build command is intended for the Ubuntu 22.04 / ROS 2 Humble robot computer, not directly for Windows.
+
 The primary package can be placed into a ROS 2 workspace such as:
 
 ```bash
