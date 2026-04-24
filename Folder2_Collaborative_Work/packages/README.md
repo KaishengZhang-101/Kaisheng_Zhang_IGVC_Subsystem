@@ -4,7 +4,7 @@ This folder contains collaborative vehicle-level packages and reused dependencie
 
 These files are not all claimed as fully original individual work. They are included because my subsystem depended on them during integration, testing, bring-up, or validation.
 
-## Package Summary
+## Included or Expected Package Summary
 
 | Package archive | Purpose | My role |
 |---|---|---|
