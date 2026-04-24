@@ -6,7 +6,7 @@ This folder contains ROS 2 package-level code associated with my individual subs
 
 | Package or node | Purpose | My role |
 |---|---|---|
-| `lane_pixel_to_xyz/` | Converts lane pixels into ground-referenced coordinates, generates lane targets, and supports diagnostics | Primary subsystem work |
+| `lane_pixel_to_xyz.zip` | ROS 2 package archive for lane projection, target generation, diagnostics, and visualization | Primary subsystem work |
 | `scan_front_filter.py` | Filters `/scan` into a forward-sector `/scan_front` topic for Nav2 local costmap use | Primary / modified integration |
 | `indoor_waypoint_nav.py` | Runs waypoint-capable and road-following behavior using the deployed Nav2 stack | Primary / integration |
 | `fix_kinect_rgb_frame.py` | Adds missing RGB frame metadata when needed | Custom utility |
